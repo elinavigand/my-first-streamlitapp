@@ -1,72 +1,26 @@
-# Project Name
+# Clean Energy Sources in Switzerland
 
-example image:
+## Project Objective
+This project aims to analyze and visualize data on renewable power plants in Switzerland to identify the canton with the most concentrated clean energy sources. The dataset used is from the Open Power System Data (OPSD) platform, which provides information on power sources operating in each canton, categorized into bioenergy, hydro, solar, or wind.
 
+### Data Cleaning and Preprocessing
+The dataset was first imported and preprocessed to ensure consistency and remove any missing or erroneous values. This involved data type conversion, handling missing values, and standardizing naming conventions.
 
-![alternative text](reports/img/pic01.jpg)
+### Data Analysis and Visualization
+1. Calculating Total Energy Production: The total energy production from each type of clean energy source (bioenergy, hydro, solar, wind) was calculated for each canton.
 
+2. Creating a Bar Chart: A bar chart was created to visualize the total energy production from clean energy sources per canton. This provides a clear overview of the top cantons in terms of clean energy production.
 
-#### -- Project Status: [Active, On-Hold, Completed]
+3. Creating an Interactive Map: An interactive map of Switzerland was created using Plotly's choropleth feature. The map displays the number of clean energy sources operating in each canton, providing a geographic representation of the distribution of clean energy sources.
 
-## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project. Limit to a short paragraph, 3-6 Sentences)
+### Streamlit App
+To enhance the accessibility and interactiveness of the analysis, a Streamlit app was developed. The app presents the bar chart and interactive map, allowing users to explore the data and gain insights into the distribution of clean energy sources in Switzerland.
 
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact]
-* If you do not have a partner leave this section out
+[Check out the streamlit app here.](https://clean-energy-switzerland.streamlit.app/)
 
-### Methods Used
-* Inferential Statistics
-* Machine Learning
-* Data Visualization
-* Predictive Modeling
-* etc.
-
-### Technologies
-* R
-* Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc.
-
-## Project Description
-(Provide more detailed overview of the project.
-Talk a bit about your data sources and what questions and hypothesis you are exploring.
-What specific data analysis/visualization and modelling work are you using to solve the
-problem? What blockers and challenges are you facing?
-Feel free to number or bullet point things here)
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages)
-create another "setup.md" file and link to it here*
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
+## Conclusion
+The findings of this project demonstrate that Switzerland is making significant progress in expanding clean energy sources. The canton of Valais emerges as the leader in clean energy production, followed closely by Bern and Graubünden. The interactive visualizations provide a compelling way to visualize and analyze the data, fostering a deeper understanding of the clean energy landscape in Switzerland.
 
 
-## Contributing Members
 
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])**
 
-#### Other Members:
-
- - [Full Name](https://github.com/[github handle])
- - [Full Name](https://github.com/[github handle])
